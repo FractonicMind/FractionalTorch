@@ -1,7 +1,4 @@
 # FractionalTorch
-PyTorch modules and experiments exploring fractional dropout for real-time video generation with glitch-inspired aesthetics.
-
-# FractionalTorch
 
 FractionalTorch is an experimental PyTorch module that implements **NeuroFraction-of-1.5**, a creative approach to generative AI that embraces glitch, artifacts, and creative noise.
 
