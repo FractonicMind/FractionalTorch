@@ -1,7 +1,7 @@
 # 🧠 FractionalTorch: A Paradigm Beyond Binary
 
 ### Where "How Much Yes" Replaces Binary Finality  
-_By Lev Goukassian & Claude (Anthropic AI)_
+_By Lev Goukassian. Co-created by Claude (Anthropic) and Vinci (OpenAI)_
 
 ---
 
