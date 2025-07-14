@@ -236,7 +236,7 @@ This work is described in our research paper:
 
 We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) for details.
 
-### Development Setup
+## Development Setup
 ```bash
 # Clone repository
 git clone https://github.com/FractonicMind/FractionalTorch.git
@@ -251,5 +251,49 @@ pytest tests/
 # Run benchmarks
 python benchmarks/run_all.py
 
----
+```
 
+
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 🙏 Acknowledgments
+
+- PyTorch team for the excellent extensible framework
+- Research community for valuable feedback and suggestions
+- Contributors who helped improve the implementation
+
+## ⭐ Star History
+
+If you find FractionalTorch useful, please consider starring the repository!
+
+**"Making neural networks numerically reliable, one fraction at a time."** 🧮✨
+
+## 📁 Directory Structure
+
+FractionalTorch/                    
+├── setup.py                       
+├── README.md                       
+├── requirements.txt                
+├── LICENSE                        
+├── pyproject.toml                  
+├── MANIFEST.in                     
+├── .gitignore                      
+├── fractionaltorch/              
+│   ├── __init__.py
+│   ├── core/
+│   │   ├── __init__.py
+│   │   ├── fractional_weight.py
+│   │   └── fractional_ops.py
+│   ├── modules/
+│   │   ├── __init__.py
+│   │   ├── fraclu.py
+│   │   ├── frac_dropout.py
+│   │   └── frac_attention.py
+│   └── benchmarks/
+├── tests/
+├── examples/
+├── docs/
+└── benchmarks/
