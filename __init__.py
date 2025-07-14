@@ -11,7 +11,7 @@ GitHub: https://github.com/FractonicMind/FractionalTorch
 """
 
 __version__ = "0.1.0"
-__author__ = "Author: Lev Goukassian"
+__author__ = "Lev Goukassian"
 __license__ = "MIT"
 __url__ = "https://github.com/FractonicMind/FractionalTorch"
 
