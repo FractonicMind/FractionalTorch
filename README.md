@@ -251,11 +251,11 @@ pytest tests/
 # Run benchmarks
 python benchmarks/run_all.py
 
-## 📄 License
+### 📄 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🙏 Acknowledgments
+### 🙏 Acknowledgments
 
 - PyTorch team for the excellent extensible framework
 - Research community for valuable feedback and suggestions
@@ -269,7 +269,7 @@ If you find FractionalTorch useful, please consider starring the repository!
 
 **"Making neural networks numerically reliable, one fraction at a time."** 🧮✨
 ```
-## 📁 Directory Structure
+### 📁 Directory Structure
 
 FractionalTorch/                    
 ├── setup.py                       
