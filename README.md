@@ -1,5 +1,4 @@
-```markdown
-# FractionalTorch
+## FractionalTorch
 
 **Exact Rational Arithmetic for Numerically Stable Neural Network Training**
 
@@ -263,13 +262,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - Research community for valuable feedback and suggestions
 - Contributors who helped improve the implementation
 
-## 📧 Contact
-
-- **Author**: [Your Name]
-- **Email**: [your.email@example.com]
-- **Website**: [your-website.com]
-- **Twitter**: [@your_handle](https://twitter.com/your_handle)
-
 ## ⭐ Star History
 
 If you find FractionalTorch useful, please consider starring the repository!
@@ -278,11 +270,3 @@ If you find FractionalTorch useful, please consider starring the repository!
 
 **"Making neural networks numerically reliable, one fraction at a time."** 🧮✨
 ```
-
-Just copy this entire text into your `README.md` file! Remember to update:
-- `[Your Name]` with your actual name
-- `[username]` with your GitHub username
-- `[your.email@example.com]` with your email
-- Any other placeholders
-
-What file would you like me to create next? `setup.py`, `requirements.txt`, or the core implementation files?
