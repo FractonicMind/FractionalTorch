@@ -239,7 +239,7 @@ We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) f
 ### Development Setup
 ```bash
 # Clone repository
-git clone https://github.com/[username]/FractionalTorch.git
+git clone https://github.com/FractonicMind/FractionalTorch.git
 cd FractionalTorch
 
 # Install in development mode
