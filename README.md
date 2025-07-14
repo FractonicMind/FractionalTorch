@@ -250,7 +250,6 @@ pytest tests/
 
 # Run benchmarks
 python benchmarks/run_all.py
-```
 
 ## 📄 License
 
