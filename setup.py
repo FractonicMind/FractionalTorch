@@ -81,10 +81,10 @@ setup(
     description="Exact rational arithmetic for numerically stable neural network training",
     long_description=get_long_description(),
     long_description_content_type="text/markdown",
-    url="https://github.com/[username]/FractionalTorch",
+    url="https://github.com/FractonicMind/FractionalTorch",
     project_urls={
-        "Bug Reports": "https://github.com/[username]/FractionalTorch/issues",
-        "Source": "https://github.com/[username]/FractionalTorch",
+        "Bug Reports": "https://github.com/FractonicMind/FractionalTorch/issues",
+        "Source": "https://github.com/FractonicMind/FractionalTorch",
         "Documentation": "https://fractionaltorch.readthedocs.io/",
         "Paper": "https://arxiv.org/abs/2025.XXXXX",
         "Blog Post": "https://medium.com/@leogouk/why-your-neural-networks-fail-and-how-i-fixed-it-562376bc88ad",
