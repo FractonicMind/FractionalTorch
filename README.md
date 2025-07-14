@@ -277,12 +277,12 @@ FractionalTorch/
 ├── setup.py                       
 ├── README.md                       
 ├── requirements.txt                
-├── LICENSE                        
+├── LICENSE                         
 ├── pyproject.toml                  
 ├── MANIFEST.in                     
 ├── .gitignore                      
-├── fractionaltorch/              
-│   ├── __init__.py
+├── fractionaltorch/               
+│   │── __init__.py
 │   ├── core/
 │   │   ├── __init__.py
 │   │   ├── fractional_weight.py
@@ -297,3 +297,4 @@ FractionalTorch/
 ├── examples/
 ├── docs/
 └── benchmarks/
+
