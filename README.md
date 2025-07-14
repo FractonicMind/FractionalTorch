@@ -270,3 +270,30 @@ If you find FractionalTorch useful, please consider starring the repository!
 
 **"Making neural networks numerically reliable, one fraction at a time."** 🧮✨
 ```
+## 📁 Directory Structure
+
+FractionalTorch/                    
+├── setup.py                       
+├── README.md                       
+├── requirements.txt                
+├── LICENSE                        
+├── pyproject.toml                  
+├── MANIFEST.in                     
+├── .gitignore                      
+├── fractionaltorch/              
+│   ├── __init__.py
+│   ├── core/
+│   │   ├── __init__.py
+│   │   ├── fractional_weight.py
+│   │   └── fractional_ops.py
+│   ├── modules/
+│   │   ├── __init__.py
+│   │   ├── fraclu.py
+│   │   ├── frac_dropout.py
+│   │   └── frac_attention.py
+│   └── benchmarks/
+├── tests/
+├── examples/
+├── docs/
+└── benchmarks/
+
