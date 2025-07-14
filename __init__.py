@@ -11,8 +11,7 @@ GitHub: https://github.com/FractonicMind/FractionalTorch
 """
 
 __version__ = "0.1.0"
-__author__ = "[Your Name]"
-__email__ = "[your.email@example.com]"
+__author__ = "Author: Lev Goukassian"
 __license__ = "MIT"
 __url__ = "https://github.com/FractonicMind/FractionalTorch"
 
