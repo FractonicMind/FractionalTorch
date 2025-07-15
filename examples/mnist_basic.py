@@ -54,7 +54,7 @@ class StandardMLP(nn.Module):
 class FractionalMLP(nn.Module):
     """FractionalTorch MLP with exact arithmetic."""
     
-    def __init__(self, max_denominator=1000):
+    def __init__(self, max_denominator=100):
         super().__init__()
         self.network = nn.Sequential(
             nn.Flatten(),
@@ -255,7 +255,7 @@ def compare_models():
     standard_results = train_model(standard_model, train_loader, test_loader, "Standard PyTorch", epochs=3)
     
     # FractionalTorch
-    fractional_model = FractionalMLP(max_denominator=1000)
+    fractional_model = FractionalMLP(max_denominator=100)
     fractional_results = train_model(fractional_model, train_loader, test_loader, "FractionalTorch", epochs=3)
     
     # Print comparison

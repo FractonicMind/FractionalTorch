@@ -1,0 +1,3 @@
+[console_scripts]
+fractionaltorch-benchmark = fractionaltorch.cli.benchmark:main
+fractionaltorch-convert = fractionaltorch.cli.convert:main
