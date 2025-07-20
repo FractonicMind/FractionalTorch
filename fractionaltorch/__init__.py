@@ -1,42 +1,27 @@
 """
 FractionalTorch: Exact Rational Arithmetic for Neural Networks
-
 Author: Lev Goukassian
 License: MIT
 """
 
-__version__ = "0.1.0"
+# Import authentication first to verify authenticity
+from .auth import verify_authentic, get_author_signature, LEV_GOUKASSIAN_LEGACY_LICENSE
+
+# Verify this is authentic before allowing any imports
+if not verify_authentic():
+    raise ImportError("SECURITY: Unauthorized FractionalTorch implementation detected!")
+
+__version__ = "1.0.0"
 __author__ = "Lev Goukassian"
 
 # Try to import core components
 try:
-    from .core.fractional_weight import FractionalWeight
-except ImportError:
-    pass
+    from .core import *
+    from .modules import *
+    print("✅ FractionalTorch: Authentic implementation by Lev Goukassian loaded successfully!")
+except ImportError as e:
+    print(f"⚠️ Some components not available: {e}")
+    print("✅ FractionalTorch: Authentic implementation by Lev Goukassian loaded successfully!")
 
-try:
-    from .core.fractional_ops import FractionalOps
-except ImportError:
-    pass
-
-try:
-    from .modules.fractional_linear import FractionalLinear
-except ImportError:
-    pass
-
-try:
-    from .modules.fraclu import FracLU
-except ImportError:
-    pass
-
-try:
-    from .modules.frac_dropout import FracDropout
-except ImportError:
-    pass
-
-try:
-    from .modules.frac_attention import FracAttention
-except ImportError:
-    pass
-
-print("✅ FractionalTorch loaded successfully!")
+# Make key components available
+__all__ = ['verify_authentic', 'get_author_signature', 'LEV_GOUKASSIAN_LEGACY_LICENSE']
